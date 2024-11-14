@@ -6,6 +6,7 @@ text-width = 80
 auto-info = false
 true-color = true
 color-modes = true
+auto-completion = false
 auto-format = false
 cursorline = true
 completion-replace = true
@@ -39,10 +40,10 @@ separator = "│"
 [keys.normal]
 C-j = "save_selection"
 C-s = ":w" 
-C-A-F = ":fmt"
+A-S-f = ":fmt"
 A-h = ":toggle lsp.display-inlay-hints"
 
 [keys.insert]
 C-s = ":w" 
-C-A-F = ":fmt"
+A-S-f = ":fmt"
 A-h = ":toggle lsp.display-inlay-hints"
