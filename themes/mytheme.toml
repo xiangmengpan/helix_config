@@ -1,0 +1,7 @@
+inherits = "gruvbox"
+
+"ui.background" = "none"
+
+"ui.bufferline.background" = "none"
+
+"keyword" = { fg="red1", modifiers=["italic"]}
