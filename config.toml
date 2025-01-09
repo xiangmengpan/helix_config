@@ -10,6 +10,7 @@ auto-completion = false
 auto-format = false
 cursorline = true
 completion-replace = true
+end-of-line-diagnostics = "hint"
 
 
 [editor.file-picker]
@@ -36,6 +37,9 @@ left = ["mode", "spinner"]
 center = ["file-name"]
 right = ["diagnostics", "selections", "position", "file-encoding", "file-line-ending", "file-type"]
 separator = "│"
+
+[editor.inline-diagnostics]
+cursor-line = "error"
 
 [keys.normal]
 C-j = "save_selection"
